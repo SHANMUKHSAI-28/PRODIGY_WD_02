@@ -7,11 +7,29 @@
 }
 
 body {
-    background: #8c52ff;
+    background: #2011c2;
+}
+
+.textonscreen{
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: #8c52ff;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+
+
 }
 
 .container {
-    background-color: #fff;
+    background-color: #2fff00;
     width: 40%;
     min-width: 500px;
     position: absolute;
